@@ -1,0 +1,29 @@
+* {
+font-size:24px;
+font-family:"Verdana", "Times New Roman", sans-serif;    
+}
+
+h1 
+{font-size:40px;
+    background-color:red;
+    color:white;
+    text-align:center;
+}
+
+.photo
+{
+ height:500px; width:500px;   
+}
+
+h2
+{font-size:34px;
+    background-color:orange;
+    color:blue;
+    text-align:center;
+}
+
+h3
+{font-size:30px;
+background-color:black;
+color:white;
+}
