@@ -1,0 +1,36 @@
+* {font-family: "Verdana", "Times New Roman", sans-serif;
+font-size:24px;
+}
+
+h1 
+{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(171, 17, 24)
+}
+
+.description 
+{font-size: 24px;}
+
+
+.photo 
+{height: 500px; width: 500px;
+text-align:center;}
+
+
+h2 
+{
+    font-size:36px;
+    text-align:center;
+    color:blue
+}
+
+.ingredients,
+.steps
+{font-size:24px;
+}
+
+h3 
+{font-size:30px;
+
+}
