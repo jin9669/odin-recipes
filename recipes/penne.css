@@ -3,16 +3,38 @@ font-size:24px;
 font-family:"Verdana", "Times New Roman", sans-serif;    
 }
 
-h1 
-{font-size:40px;
+h1{
+    font-size:40px;
+    margin-left:20%;
+    margin-right:20%;
     background-color:red;
     color:white;
     text-align:center;
+    border:2px solid black;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
 }
 
 .photo
 {
- height:500px; width:500px;   
+margin: 0 auto;
+max-height: 500px;
+max-width: 40%;
+ float:left;  
+ margin-left: 50px;
+}
+
+.section1{
+    float:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.clearfix{
+    clear:both;
 }
 
 h2
@@ -22,8 +44,44 @@ h2
     text-align:center;
 }
 
+.box{
+margin: 0 auto;
+margin-top: 50px;
+max-width:fit-content;
+border: 2px solid black;
+padding:25px;
+}
+
+.ingredients{
+    display:flex;
+    max-height: 250px;
+    justify-content:center;
+}
+
+.list1,
+.list2{
+    float:left;
+    margin-left:7.5%;
+    margin-top:20px;
+    background-color:rgb(127, 254, 254);
+    padding: 30px;
+}
+
+.steps{
+    border:5px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
 h3
 {font-size:30px;
 background-color:black;
 color:white;
+margin: 0 auto;
+max-width:fit-content;
+padding: 10px;
+}
+
+.serving{
+    text-align:center;
 }
