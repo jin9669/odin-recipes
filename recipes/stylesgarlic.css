@@ -1,15 +1,39 @@
 * {font-family: "Verdana", "Times New Roman", sans-serif;
     font-size:24px;
+    color: white;
+    background-color:rgb(39, 39, 39)
 }
 
 h1 
-{background-color:black;
-    color:white;
+{
+background-color:rgb(93, 89, 89);
+color:white;
 font-size:45px;
 text-align:center;
+margin-left: 25%;
+margin-right: 25%;
 }
 
-.photo {height:500px; width:500px;
+.section1{
+    display:flex;
+    justify-content: center;
+}
+
+.photo{
+    margin: 0 auto;
+height:500px;
+width: 500px;
+    float:left;
+    margin-left: 50px;
+}
+.inner1{
+    float:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.clearfix{
+    clear:both;
 }
 
 h2 
@@ -17,6 +41,12 @@ h2
     text-align:center;
     background-color:black;
     color:white;
+    max-width:fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .Alternate 
@@ -33,5 +63,19 @@ color:white;
     font-weight:400px;
 }
 
+.ingredients{
+    display:flex;
+}
+
+.list1,
+.list2{
+float:left;
+margin-left: 6%;
+}
+
+.boxstep{
+    border:2px solid white;
+    padding: 10px;
+}
 .note
 {font-size:16px;}
